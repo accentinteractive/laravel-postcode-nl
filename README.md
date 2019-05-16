@@ -7,13 +7,14 @@
 [![License](https://poser.pugx.org/speelpenning/laravel-postcode-nl/license)](https://packagist.org/packages/speelpenning/laravel-postcode-nl)
 
 A client using the Postcode.nl REST API for Dutch address verification.
+This is a clone from [Speelpenning-nl/laravel-postcode-nl](https://github.com/Speelpenning-nl/laravel-postcode-nl). I forked this repo to make it Laravel 5.8 compatible.
 
 ## Installation 
 
 Pull the package in through Composer:
 
 ```bash
-composer require speelpenning/laravel-postcode-nl
+composer require accentinteractive/laravel-postcode-nl
 ```
 
 Next, register an account with Postcode.nl to obtain a key and secret. See https://api.postcode.nl/#register for 
